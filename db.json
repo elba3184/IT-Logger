@@ -12,13 +12,6 @@
       "message": "Hard drive fixed in workstation 002",
       "attention": false,
       "date": "2020-06-27T23:37:27.674Z"
-    },
-    {
-      "message": "asdasd",
-      "attention": true,
-      "tech": "John Doe",
-      "date": "2020-06-27T23:38:08.391Z",
-      "id": 3
     }
   ],
   "techs": [
