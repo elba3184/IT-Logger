@@ -8,11 +8,17 @@
       "id": 1
     },
     {
-      "message": "Hard drive failed in workstation 002",
+      "id": 2,
+      "message": "Hard drive fixed in workstation 002",
+      "attention": false,
+      "date": "2020-06-27T23:37:27.674Z"
+    },
+    {
+      "message": "asdasd",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2020-06-27T22:46:21.294Z",
-      "id": 2
+      "tech": "John Doe",
+      "date": "2020-06-27T23:38:08.391Z",
+      "id": 3
     }
   ],
   "techs": [
