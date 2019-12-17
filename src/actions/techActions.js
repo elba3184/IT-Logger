@@ -25,30 +25,30 @@ export const getTechs = () => async (dispatch) => {
   }
 };
 
-//Add new tech
-// export const addTech = (log) => async (dispatch) => {
-//   try {
-//     setLoading();
-//     const res = await fetch('/tech', {
-//       method: 'POST',
-//       body: JSON.stringify(log),
-//       headers: {
-//         'Content-Type': 'application/json',
-//       },
-//     });
-//     const data = await res.json();
+//Add new tech to server
+export const addTech = (tech) => async (dispatch) => {
+  try {
+    setLoading();
+    const res = await fetch('/techs', {
+      method: 'POST',
+      body: JSON.stringify(tech),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    });
+    const data = await res.json();
 
-//     dispatch({
-//       type: ADD_TECH,
-//       payload: data,
-//     });
-//   } catch (err) {
-//     dispatch({
-//       type: TECHS_ERROR,
-//       payload: err.response.statusText,
-//     });
-//   }
-// };
+    dispatch({
+      type: ADD_TECH,
+      payload: data,
+    });
+  } catch (err) {
+    dispatch({
+      type: TECHS_ERROR,
+      payload: err.response.statusText,
+    });
+  }
+};
 
 //Delete Tech
 // export const deleteTech = (id) => async (dispatch) => {
