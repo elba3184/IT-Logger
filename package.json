@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "node server.js",
+    "server": "nodemon server.js",
     "json-server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
@@ -33,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "IT Logger application using json server and Redux",
   "devDependencies": {
     "concurrently": "^5.2.0",
     "json-server": "^0.16.1",
@@ -49,6 +50,9 @@
     "type": "git",
     "url": "git+https://github.com/elba3184/it-logger-app.git"
   },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
   "author": "Elba Chimilio",
   "license": "ISC",
   "proxy": "http://localhost:5000"
