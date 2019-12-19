@@ -1,5 +1,4 @@
 {
-  "homepage": "http://elba3184.github.io/it-logger-app",
   "name": "it-logger-app",
   "version": "0.1.0",
   "private": true,
@@ -13,8 +12,6 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "server": "nodemon server.js",
     "json-server": "json-server --watch db.json --port 5000",
