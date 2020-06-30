@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/it-logger-app/static/css/main.36497136.chunk.css",
+    "main.js": "/it-logger-app/static/js/main.3dee5ff4.chunk.js",
+    "main.js.map": "/it-logger-app/static/js/main.3dee5ff4.chunk.js.map",
+    "runtime-main.js": "/it-logger-app/static/js/runtime-main.c336f839.js",
+    "runtime-main.js.map": "/it-logger-app/static/js/runtime-main.c336f839.js.map",
+    "static/css/2.36020323.chunk.css": "/it-logger-app/static/css/2.36020323.chunk.css",
+    "static/js/2.d2355d36.chunk.js": "/it-logger-app/static/js/2.d2355d36.chunk.js",
+    "static/js/2.d2355d36.chunk.js.map": "/it-logger-app/static/js/2.d2355d36.chunk.js.map",
+    "index.html": "/it-logger-app/index.html",
+    "precache-manifest.fd1d77cce5a41362e857ac25fc7f44ca.js": "/it-logger-app/precache-manifest.fd1d77cce5a41362e857ac25fc7f44ca.js",
+    "service-worker.js": "/it-logger-app/service-worker.js",
+    "static/css/2.36020323.chunk.css.map": "/it-logger-app/static/css/2.36020323.chunk.css.map",
+    "static/css/main.36497136.chunk.css.map": "/it-logger-app/static/css/main.36497136.chunk.css.map",
+    "static/js/2.d2355d36.chunk.js.LICENSE.txt": "/it-logger-app/static/js/2.d2355d36.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c336f839.js",
+    "static/css/2.36020323.chunk.css",
+    "static/js/2.d2355d36.chunk.js",
+    "static/css/main.36497136.chunk.css",
+    "static/js/main.3dee5ff4.chunk.js"
+  ]
+}
